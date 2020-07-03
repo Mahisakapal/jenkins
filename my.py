@@ -1,4 +1,4 @@
-=1
+i=1
 while i<=10:
     print(F"help {i}")
     i=i+1
