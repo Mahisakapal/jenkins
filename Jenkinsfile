@@ -17,7 +17,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                sh "sudo python3 jinkins/my.py"
+                sh "sudo python3 my.py"
             }
         }
     }
