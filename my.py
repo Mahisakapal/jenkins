@@ -13,4 +13,4 @@ while i<=10 :
 
     i += 1          # this is same as i = i + 1
 
-print (total)  # if forget aliment it will print all time 
+print (total)  # if forget aliment it will print all time this is testing add text
