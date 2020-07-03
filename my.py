@@ -1,26 +1,16 @@
-num=[1,2,3,4,9,8,7,6,5]
+=1
+while i<=10:
+    print(F"help {i}")
+    i=i+1
 
-for i in num:
-    
-    print (i)
-print("               this is new list            ")
-i =0 
+# now we will take sum 
+total =0
+i = 1
 
-while i < len(num):
-    i+=1
-    
-    print(i)
-print("               this is new list            ")
+while i<=10 :
+     
+    total  += i    # herer totao is zero but it incer by i 
 
+    i += 1          # this is same as i = i + 1
 
-num1 = [[1, 2, 3,], [8, 9, 7], [4, 6, 5]]
-
-print(num1[1])
-print("               this is new list            ")
-
-
-for sublist in num1:
-    for i in sublist :
-        print(i, end = "")   # here we use , end = "" to print in on row or in line 
-
-
+print (total)  # if forget aliment it will print all time 
