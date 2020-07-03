@@ -6,7 +6,7 @@ pipeline {
         stage('clone repo') {
             steps {
                 
-                sh "python3 jinkins/my.py"
+                sh "ls"
             }
         }
         stage('Test') {
@@ -17,7 +17,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying....'
-                
+                sh "sudo python3 jinkins/my.py"
             }
         }
     }
